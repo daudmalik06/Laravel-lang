@@ -3,26 +3,43 @@
 
  * ar:
 
+ * az:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex : not present
+
  * be:
     * validation : after_or_equal
     * validation : before_or_equal
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : uploaded
 
  * bg:
-    * validation : file
-    * validation : in_array
-    * validation : ipv4
-    * validation : ipv6
-    * validation : required_unless
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * bn:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * bs:
     * auth : failed
@@ -32,25 +49,36 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : uploaded
 
  * ca:
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : ipv4
-    * validation : ipv6
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * cs:
     * validation : after_or_equal
     * validation : before_or_equal
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * cy:
     * auth : failed
@@ -60,28 +88,55 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : string
     * validation : uploaded
 
  * da:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * de:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
 
  * el:
-    * validation : ipv4
-    * validation : ipv6
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * es:
 
  * et:
-    * validation : ipv4
-    * validation : ipv6
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
+
+ * eu:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * fa:
 
@@ -91,40 +146,44 @@
     * validation : before_or_equal
     * validation : dimensions
     * validation : exists
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * fr:
 
  * gl:
-    * validation : after_or_equal
-    * validation : before_or_equal
     * validation : dimensions
     * validation : distinct
     * validation : file
     * validation : in_array
-    * validation : ipv4
-    * validation : ipv6
     * validation : present
-    * validation : uploaded
 
  * he:
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : file
-    * validation : ipv4
-    * validation : ipv6
-    * validation : uploaded
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * hi:
-    * validation : after_or_equal : not present
-    * validation : before_or_equal : not present
-    * validation : dimensions : not present
-    * validation : file : not present
+    * validation : after_or_equal
+    * validation : before_or_equal
+    * validation : dimensions
+    * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
-    * validation : mimetypes : not present
-    * validation : uploaded : not present
+    * validation : lt
+    * validation : lte
+    * validation : mimetypes
+    * validation : not_regex
+    * validation : uploaded
 
  * hr:
     * validation : after_or_equal
@@ -132,17 +191,24 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
-    * validation : filled
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : string
     * validation : uploaded
 
  * hu:
+    * validation : not_regex
+
+ * id:
 
  * is:
     * auth : failed
@@ -152,10 +218,15 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : required_with
@@ -168,20 +239,33 @@
  * it:
 
  * ja:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * ka:
-    * validation : ipv4
-    * validation : ipv6
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * kk:
-    * validation : after_or_equal : not present
-    * validation : before_or_equal : not present
-    * validation : dimensions : not present
-    * validation : file : not present
+    * validation : after_or_equal
+    * validation : before_or_equal
+    * validation : dimensions
+    * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
-    * validation : mimetypes : not present
-    * validation : uploaded : not present
+    * validation : lt
+    * validation : lte
+    * validation : mimetypes
+    * validation : not_regex
+    * validation : uploaded
 
  * km:
     * auth : failed
@@ -191,10 +275,15 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : required_with_all
@@ -203,22 +292,45 @@
     * validation : uploaded
 
  * ko:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
 
  * lt:
     * validation : after_or_equal
     * validation : before_or_equal
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : uploaded
+
+ * lv:
+    * validation : gt
+    * validation : gte
+    * validation : ipv4
+    * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * me:
     * validation : after_or_equal
     * validation : before_or_equal
     * validation : dimensions
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : timezone
     * validation : uploaded
 
@@ -230,10 +342,15 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : required_with_all
@@ -242,23 +359,25 @@
     * validation : timezone
     * validation : uploaded
 
- * ms:
-    * validation : after_or_equal
-    * validation : before_or_equal
+ * mn:
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
+    * validation : required_without
+    * validation : required_without_all
+    * validation : same
+
+ * ms:
 
  * nb:
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : dimensions
-    * validation : distinct
-    * validation : file
-    * validation : in_array
-    * validation : ipv4
-    * validation : ipv6
-    * validation : present
-    * validation : uploaded
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
 
  * ne:
     * validation : after_or_equal
@@ -266,34 +385,62 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : uploaded
 
  * nl:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * nn:
     * validation : after_or_equal
     * validation : before_or_equal
     * validation : dimensions
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : uploaded
 
  * pl:
-    * validation : ipv4
-    * validation : ipv6
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
 
  * pt:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * pt-BR:
+    * validation : not_regex
 
  * ro:
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * ru:
 
@@ -305,35 +452,33 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : string
     * validation : uploaded
 
  * sk:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * sl:
-    * auth : failed
-    * auth : throttle
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : dimensions
-    * validation : distinct
-    * validation : file
-    * validation : filled
-    * validation : in_array
-    * validation : ipv4
-    * validation : ipv6
-    * validation : json
-    * validation : present
-    * validation : required_unless
-    * validation : string
-    * validation : timezone
-    * validation : uploaded
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * sq:
     * auth : failed
@@ -343,10 +488,15 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : uploaded
@@ -357,39 +507,64 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : uploaded
 
  * sv:
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * sw:
-    * validation : after_or_equal : not present
-    * validation : before_or_equal : not present
-    * validation : dimensions : not present
-    * validation : file : not present
+    * validation : after_or_equal
+    * validation : before_or_equal
+    * validation : dimensions
+    * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
-    * validation : mimetypes : not present
-    * validation : uploaded : not present
+    * validation : lt
+    * validation : lte
+    * validation : mimetypes
+    * validation : not_regex
+    * validation : uploaded
 
  * tg:
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * th:
     * validation : after_or_equal
     * validation : before_or_equal
     * validation : dimensions
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : uploaded
 
  * tk:
@@ -400,47 +575,89 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
+    * validation : gt
+    * validation : gte
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
     * validation : json
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
     * validation : present
     * validation : required_unless
     * validation : string
     * validation : uploaded
 
  * tl:
-    * validation : after_or_equal : not present
-    * validation : before_or_equal : not present
-    * validation : dimensions : not present
-    * validation : file : not present
-    * validation : ipv4
-    * validation : ipv6
-    * validation : mimetypes : not present
-    * validation : uploaded : not present
-
- * tr:
     * validation : after_or_equal
     * validation : before_or_equal
+    * validation : dimensions
+    * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
-    * validation : present
-    * validation : required_unless
+    * validation : lt
+    * validation : lte
+    * validation : mimetypes
+    * validation : not_regex
     * validation : uploaded
 
+ * tr:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+
+ * ug:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
+
  * uk:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * ur:
-    * validation : after_or_equal : not present
-    * validation : before_or_equal : not present
-    * validation : dimensions : not present
-    * validation : file : not present
+    * validation : after_or_equal
+    * validation : before_or_equal
+    * validation : dimensions
+    * validation : file
+    * validation : gt
+    * validation : gte
     * validation : ipv4
     * validation : ipv6
-    * validation : mimetypes : not present
-    * validation : uploaded : not present
+    * validation : lt
+    * validation : lte
+    * validation : mimetypes
+    * validation : not_regex
+    * validation : uploaded
+
+ * uz-cyrillic:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
+
+ * uz-latin:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
+    * validation : not_regex
 
  * vi:
+    * validation : gt
+    * validation : gte
+    * validation : lt
+    * validation : lte
 
  * zh-CN:
 
